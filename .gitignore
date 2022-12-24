@@ -1,4 +1,4 @@
 .github/**
 
-# ignore ALL .csv files
+#ignoring ALL .csv files
 *.csv
