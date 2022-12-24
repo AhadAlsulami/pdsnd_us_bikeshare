@@ -159,8 +159,8 @@ def user_stats(df):
         print('\nNumber of users based on gender:\n', df['Gender'].value_counts(),"\n")
 
         # Display earliest, most recent, and most common year of birth
-        print("The earliest year of birth: ", int(df['Birth Year'].min()))
-        print("The recent year of birth: ", int(df['Birth Year'].max()))
+        print("The oldest year of birth: ", int(df['Birth Year'].min()))
+        print("The youngest year of birth: ", int(df['Birth Year'].max()))
         print("The most common year of birth:: ", int(df['Birth Year'].mode()))
         
     except:
