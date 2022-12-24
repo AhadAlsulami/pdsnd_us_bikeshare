@@ -120,7 +120,8 @@ def station_stats(df):
     print("The most commonly used End Station: ", df['End Station'].value_counts().idxmax())
 
     # display most frequent combination of start station and end station trip
-    print("The most frequent combination of Start and End Stations: ", (df['Start Station'] + " --to--> " + df['End Station']).value_counts().idxmax())
+    combination = df['Start Station'] + " --to--> " + df['End Station']
+    print("The most frequent combination of Start and End Stations: ", (combination).value_counts().idxmax())
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print("\n",'-'*40, "\n")
@@ -158,8 +159,8 @@ def user_stats(df):
         print('\nNumber of users based on gender:\n', df['Gender'].value_counts(),"\n")
 
         # Display earliest, most recent, and most common year of birth
-        print("The earliest year of birth: ", int(df['Birth Year'].min()))
-        print("The recent year of birth: ", int(df['Birth Year'].max()))
+        print("The oldest year of birth: ", int(df['Birth Year'].min()))
+        print("The youngest year of birth: ", int(df['Birth Year'].max()))
         print("The most common year of birth:: ", int(df['Birth Year'].mode()))
         
     except:
