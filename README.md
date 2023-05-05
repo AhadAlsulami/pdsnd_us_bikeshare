@@ -1,7 +1,7 @@
 ## Overview
 This project uses Python to analyze bikeshare data from three major cities in the United States: Chicago, New York City, and Washington, D.C. 
 
-The goal of this project is to provide an interactive environment where users can choose the data and filter for a dataset to analyze. 
+The goal of this project is to provide an interactive environment where users can choose the dataset to analyze. 
 With the help of Python, we calculate statistics and provide insightful analysis to users.
 
 
@@ -46,7 +46,7 @@ The last image shows how the program asks the user if they want to see a part of
 
 <img src="https://user-images.githubusercontent.com/99281844/236470268-69f56ef7-1da0-4e39-965f-24c2ea5f2b0a.png" width="550">
 
-## Data
+## Dataset
 The data used in this project is provided by https://motivateco.com. The data includes information about individual bikerides, including the start time, end time, and station information.
 - chicago.csv
 - new_york_city.csv
