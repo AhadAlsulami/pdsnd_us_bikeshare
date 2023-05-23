@@ -54,5 +54,5 @@ The data used in this project is provided by https://motivateco.com. The data in
 
 
 ## Credits
-This project was created by Ahad Alsulami as part of a project for the Udacity Programming for Data Science with Python Nanodegree program. 
+This project was created by Ahad Alsulami (me) as part of a project for the Udacity Programming for Data Science with Python Nanodegree program. 
 The project was inspired by the bikeshare project in the same program. 
